@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    font-size: 62.5%;
+    background-color: #F6F7F9;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#div-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+#div-input label {
+    font-size: 1.4rem;
+    color: #acacac;
+}
+
+input {
+    padding: 1rem;
+    border: none;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: #3563E9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#div-binomio {
+    font-size: 1.6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+li:nth-child(odd){
+    background-color: #3563E9;
+}
+
+li:nth-child(even){
+    background-color: #264BC8;
+}
